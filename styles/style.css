@@ -1,0 +1,128 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  color: #100A30;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  max-width: 123.2rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 123.2rem;
+  margin: 0 auto;
+  padding: 2.1rem 1.5rem;
+}
+
+.nav {
+  list-style: none;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+.nav__item {
+  margin-left: 4rem;
+}
+
+.nav__item:first-child {
+  margin-left: 0;
+}
+
+.nav__item:last-child {
+  margin-left: 2rem;
+}
+
+.nav__link {
+  color: #100A30;
+  text-decoration: none;
+}
+
+.nav__btn {
+  font-size: 1.4rem;
+  background-color: #624DE3;
+  color: #fff;
+  text-decoration: none;
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.6rem;
+}
+
+.banner {
+  text-align: center;
+  background-color: #100A30;
+  color: #fff;
+  padding-top: 6.2rem;
+  padding-bottom: 75.7rem;
+  position: relative;
+}
+
+.banner__title {
+  font-size: 5.5rem;
+  line-height: 6.4rem;
+  max-width: 56.3rem;
+  margin: 0 auto;
+  margin-bottom: 2.6rem;
+}
+
+.banner__text {
+  line-height: 3rem;
+  margin-bottom: 4.8rem;
+}
+
+.banner__img {
+  position: absolute;
+  bottom: -17.2rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.btn-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn-group__btn {
+  border: 0.1rem solid #fff;
+  padding: 1.5rem 3.6rem;
+  border-radius: 0.6rem;
+  color: #fff;
+  text-decoration: none;
+  margin: 0rem 0.8rem;
+  display: inline-block;
+}
+
+.btn-group__btn-main {
+  background-color: #624DE3;
+  font-size: 1.5rem;
+  border: 0.1rem solid transparent;
+  padding: 1.6rem 3.6rem;
+}
+/*# sourceMappingURL=style.css.map */
