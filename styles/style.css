@@ -125,4 +125,166 @@ body {
   border: 0.1rem solid transparent;
   padding: 1.6rem 3.6rem;
 }
+
+.section {
+  padding-top: 15rem;
+}
+
+.section__title {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 5.6rem;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 59rem;
+  margin-bottom: 5.8rem;
+}
+
+.tarif {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.tarif-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 32%;
+          flex: 0 0 32%;
+}
+
+.tarif-item-01 .tarif-header {
+  background-image: url(../img/tarif-01.svg);
+}
+
+.tarif-item-01 .tarif-footer {
+  background-color: rgba(16, 10, 48, 0.05);
+}
+
+.tarif-item-01 .tarif-list__item::before {
+  background-image: url(../img/check-01.svg);
+}
+
+.tarif-item-02 .tarif-header {
+  background-image: url(../img/tarif-02.svg);
+}
+
+.tarif-item-02 .tarif-footer {
+  background-color: rgba(25, 199, 135, 0.05);
+}
+
+.tarif-item-02 .tarif-list__item::before {
+  background-image: url(../img/check-02.svg);
+}
+
+.tarif-item-03 .tarif-header {
+  background-image: url(../img/tarif-03.svg);
+}
+
+.tarif-item-03 .tarif-footer {
+  background-color: rgba(252, 185, 52, 0.05);
+}
+
+.tarif-item-03 .tarif-list__item::before {
+  background-image: url(../img/check-03.svg);
+}
+
+.tarif-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tarif-list__item {
+  position: relative;
+  padding-left: 3rem;
+  margin-bottom: 1.4rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.tarif-list__item::before {
+  content: "";
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  top: calc(50%-1rem);
+  left: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.tarif-header {
+  background-position: 0 center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 10rem;
+  border-radius: 0.8rem 0.8rem 0 0;
+}
+
+.tarif-info {
+  background-color: #100A30;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-left: 3rem;
+  padding-right: 3.7rem;
+  padding-top: 4rem;
+  padding-bottom: 3.7rem;
+  position: relative;
+}
+
+.tarif-info::before {
+  content: "";
+  display: block;
+  background-image: url(../img/item.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 4.6rem;
+  position: absolute;
+  top: -4.5rem;
+  left: 0;
+}
+
+.tarif-info__title {
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.tarif-info__title::before {
+  content: "";
+  display: block;
+  width: 6.1rem;
+  height: 1.6rem;
+  background-image: url(../img/tarif-logo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 1.3rem;
+}
+
+.tarif-info__price {
+  font-size: 4.8rem;
+  margin: 0;
+}
+
+.tarif-info__price span {
+  font-size: 1.5rem;
+}
+
+.tarif-footer {
+  border-radius: 0 0 0.8rem 0.8rem;
+  padding: 2.4rem 2.6rem;
+}
 /*# sourceMappingURL=style.css.map */
