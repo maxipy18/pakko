@@ -43,6 +43,9 @@ body {
     &__link {
         color: $dark;
         text-decoration: none;
+        &:hover {
+            color: $purple;
+        }
     }
     &__btn {
         font-size: 1.4rem;
@@ -389,6 +392,7 @@ footer {
                 color: $dark-light;
                 &:hover {
                     text-decoration: underline;
+                    color: $dark;
                 }
             }
         }   

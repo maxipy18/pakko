@@ -58,6 +58,10 @@ body {
   text-decoration: none;
 }
 
+.nav__link:hover {
+  color: #624DE3;
+}
+
 .nav__btn {
   font-size: 1.4rem;
   background-color: #624DE3;
@@ -478,6 +482,7 @@ footer {
 
 .footer-list-item__link:hover {
   text-decoration: underline;
+  color: #100A30;
 }
 
 .footer-nav {
